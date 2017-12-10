@@ -10,6 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".MyAplication"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
@@ -23,7 +24,13 @@
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name=".database.MovieContentProvider"
+            android:authorities="id.co.imastudio.popumovi"
+            android:enabled="true"
+            android:exported="true"></provider>
     </application>
 
 </manifest>

@@ -13,4 +13,6 @@ public interface ApiServices {
     Call<ListMovieModel> ambilFilmPopuler();
 
     //top rated disini
+    @GET("movie/top_rated?api_key=b08e3495841838f530552c2b261e00b1&language=en-US&page=1")
+    Call<ListMovieModel> ambilFilmTopRated();
 }

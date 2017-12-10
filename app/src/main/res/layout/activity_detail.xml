@@ -48,6 +48,20 @@
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/ic_action_notfavorit"
+        />
+
+    <!--<com.sackcentury.shinebuttonlib.ShineButton-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="75dp"-->
+        <!--android:id="@+id/btnFavorit"-->
+        <!--android:layout_margin="20dp"-->
+        <!--app:layout_anchor="@id/app_bar"-->
+        <!--app:layout_anchorGravity="bottom|end"-->
+        <!--app:btn_fill_color="@color/colorAccent"-->
+        <!--app:siShape="@raw/heart"-->
+        <!--app:btn_color="@android:color/darker_gray"-->
+        <!--app:allow_random_color="false"-->
+        <!--/>-->
 
 </android.support.design.widget.CoordinatorLayout>

@@ -68,7 +68,8 @@ public class PopularFragment extends Fragment {
         progress.show();
 
         ApiServices api = RetrofitConfig.getApiServices();
-        Call<ListMovieModel> call = api.ambilFilmPopuler();
+        Call<ListMovieModel> call = api.ambilFilmTopRated();
+        //pilihan jenis film disini
 
         call.enqueue(new Callback<ListMovieModel>() {
             @Override
