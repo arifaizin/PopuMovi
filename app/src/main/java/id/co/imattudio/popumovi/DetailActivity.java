@@ -93,7 +93,7 @@ public class DetailActivity extends AppCompatActivity {
         //kalau favorit nanti love full
         //jalau ndak nanti love kosong
     }
-
+// hapus favorite dari database
     private void hapusDatabase() {
         int numRowsDeleted = getContentResolver().delete(
                 MovieContract.MovieEntry.CONTENT_URI
